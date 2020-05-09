@@ -3,7 +3,7 @@ const app = express();
 const router = express.Router();
 const axios = require('axios');
 app.use('/', router);
-var url = "http://mock-api.com/NnXNL9zy.mock/math";
+var url = "http://mock-api.com/NnXNL9zy.mock/higher";
 router.get('/status', (req, res) => {
  axios.get(url)
  .then(response => {
